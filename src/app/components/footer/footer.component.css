@@ -1,0 +1,12 @@
+.footer{
+    height:auto;
+    margin-top:5px;
+    border-top: 2px solid black;
+    border-right:2px solid black;
+    border-left:2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#text{
+    margin: 0;
+}
