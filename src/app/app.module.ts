@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactmeComponent } from './components/contactme/contactme.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 import { NgxSpinnerModule } from "ngx-spinner";
 
 interface NgxSpinnerConfig {
@@ -23,7 +24,8 @@ interface NgxSpinnerConfig {
     FooterComponent,
     AboutmeComponent,
     SkillsComponent,
-    ContactmeComponent
+    ContactmeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,41 @@
-<div class="banner">
-    <div class="banner_text">
-        <h1 id="text">Hi, I am Saswata Das</h1>
-        <h3 id="text">A Software Developer</h3>
-        <h4 id="text">from Kolkata, West Bengal</h4>
-        <h2 id="text">I appreciate you visiting my Portfolio</h2>
-        <canvas #hello id="hello" width="300px" height="150px">Hello</canvas>
+<!-- <div class="main">
+    <div class="banner section">
+        <div class="banner_text">
+            <h1 id="text">Hi, I am Saswata Das</h1>
+            <h3 id="text">A Software Developer</h3>
+            <h4 id="text">from Kolkata, West Bengal</h4>
+            <h2 id="text">I appreciate you visiting my Portfolio</h2>
+        </div>
+        <div id="banner_picture">
+            <img src="../../../assets/portfolio_dp.png">
+        </div>
     </div>
-    <div id="banner_picture">
-        <img src="../../../assets/portfolio_dp.png">
-    </div>
+    
+    <app-aboutme class="section"></app-aboutme>
+    <app-skills class="section"></app-skills>
+    <app-contactme class="section"></app-contactme>
+</div> -->
+<div class="container">
+    <section class="dynamic_intro">
+        <div class="banner">
+            <div class="banner_text">
+                <h1 id="text">Hi, I am <span style="background-color:black;color:white;padding:0 20px 0 20px;margin-left:5px">Saswata Das</span></h1>
+                <h3 id="text">A Software Developer</h3>
+                <h4 id="text">from Kolkata, West Bengal</h4>
+                <h2 id="text">I appreciate you visiting my Portfolio</h2>
+            </div>
+        </div>
+    </section>
+    <section class="about_me">
+        <app-aboutme></app-aboutme>
+    </section>
+    <section class="skills">
+        <app-skills></app-skills>
+    </section>
+    <section class="projects">
+        <app-projects></app-projects>
+    </section>
+    <section class="contact_me">
+        <app-contactme></app-contactme>
+    </section>
 </div>
-<app-aboutme></app-aboutme>
-<app-skills></app-skills>
-<app-contactme></app-contactme>

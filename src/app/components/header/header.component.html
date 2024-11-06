@@ -1,8 +1,9 @@
 <div class="navbar">
-    <div class="logo">Saswata.Das</div>
+    <div class="logo">Saswata.<span style="color:blue">D</span><span style="color:green">a</span><span style="color:red">s</span></div>
     <ul class="navbar_options">
-        <li *ngFor="let opt of options">
-            <a routerLink="opt.link">{{opt.name}}</a>
-        </li>
+        <li><a routerLink="/about" style="color:red">About</a></li>
+        <li><a routerLink="/services" style="color:green">Skills</a></li>
+        <li><a routerLink="/projects" style="color:blue">Projects</a></li>
+        <li><a routerLink="/contact" style="color:#000">Contact</a></li>
     </ul>
 </div>

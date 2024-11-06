@@ -1,8 +1,9 @@
 
 .body{
-    background-color: #c7b200;
+    background-color: #ffffff;
     height: auto;
 }
-#text{
+h2{
     margin: 0;
+    color:#000;
 }

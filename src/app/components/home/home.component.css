@@ -1,8 +1,18 @@
+.main{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    scroll-snap-align: start;
+}
 .banner{
     width:100%;
-    background-color: #efd600;
+    height:100%;
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:50px;
+    position:relative;
 }
 .banner_text{
     position: relative;
@@ -12,10 +22,16 @@
     top:100px;
 }
 #text{
-    margin: 0;;
+    margin: 0;
 }
-.banner_picture{
-    height:100%;
-    width:auto;
-    border-radius: 50%;
+
+.container{
+    height:91vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    height:91vh;
+    scroll-snap-align: start;
 }
