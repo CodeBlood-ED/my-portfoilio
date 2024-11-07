@@ -25,12 +25,14 @@
 
 .container{
     height:91vh;
+    width:100vw;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
 
 section{
     height:91vh;
+    width: 100vw;
     scroll-snap-align: start;
 }
 
