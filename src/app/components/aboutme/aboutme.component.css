@@ -2,8 +2,48 @@
 .body{
     background-color: #ffffff;
     height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
 }
 h2{
-    margin: 0;
+    margin:0;
     color:#000;
+}
+.para1{
+    width:80%;
+    margin-top:30px;
+    font-family:"Fira Code", serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+
+}
+.para2{
+    width:100%;
+    font-family:"Fira Code", serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+
+}
+@media screen and (max-width:600px) {
+    .para1{
+        width:95vw;
+        height:75vh;
+        margin-top: 0px;;
+        justify-content: center;
+        text-align: center;
+        overflow-y:scroll;
+        font-size:26px;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
 }
