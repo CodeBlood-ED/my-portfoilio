@@ -19,7 +19,7 @@
     flex-direction: column;
     left:50px;
 }
-#text{
+.text{
     margin: 0;
 }
 
@@ -32,4 +32,17 @@
 section{
     height:91vh;
     scroll-snap-align: start;
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    display:none;
+  }
+  .banner_text {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+  }
 }
