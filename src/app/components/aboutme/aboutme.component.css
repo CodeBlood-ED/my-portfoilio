@@ -2,19 +2,26 @@
 .body{
     background-color: #ffffff;
     height: auto;
-    display:flex;
-    flex-direction: column;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
+    position: relative;
 }
 h2{
     margin:0;
     color:#000;
+    width:100vw;
+    text-align: center;
+}
+#text{
+    position:relative;
+    display:inline-block;
+    margin-top:0;
 }
 .para1{
-    width:80%;
-    margin-top:30px;
+    width:95%;
+    padding:30px;
+    position:absolute;
     font-family:"Fira Code", serif;
     font-optical-sizing:auto;
     font-weight: 400;
@@ -42,6 +49,28 @@ h2{
         text-align: center;
         overflow-y:scroll;
         font-size:26px;
+        padding:13px;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+@media screen and (max-width:400px) {
+    body {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;text-align: center;
+        object-fit: contain;
+    }
+    .para1{
+        width:100vw;
+        height:75vh;
+        margin-top: 0px;;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        padding:0;
+        overflow-y: hidden;
     }
     ::-webkit-scrollbar{
         display: none;
